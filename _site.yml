@@ -13,7 +13,7 @@ collections:
     citations: false
 #creative_commons: CC BY
 repository_url: https://github.com/salma71/blog/
-base_url: https://salma71.github.io/blog
+base_url: https://salma71.github.io
 favicon: images/headshot_0.jpg
 navbar:
   logo: images/headshot_0.jpg
