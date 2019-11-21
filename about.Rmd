@@ -1,0 +1,7 @@
+---
+title: "About this blog"
+---
+
+Welcome to *Salma Elshahawy*. 
+
+This blog is created using [Radix for R Markdown](https://rstudio.github.io/radix/).
