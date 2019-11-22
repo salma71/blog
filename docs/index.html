@@ -1297,7 +1297,7 @@
   }
   
   .nav-left .title {
-    font-size: 2.75em;
+    font-size: 2em;
     text-transform: uppercase;
   }
   .nav-left .title:hover {
@@ -1349,15 +1349,12 @@
 <header class="header header--fixed" role="banner">
 <nav class="radix-site-nav radix-site-header">
 <div class="nav-left">
-<span class="logo">
-<img src="images/headshot_0.jpg"/>
-</span>
 <a href="index.html" class="title">Salma Elshahawy</a>
 </div>
 <div class="nav-right">
-<a href="https://salma71.github.io">Home</a>
-<a href="https://salma71.github.io/resume">Resume</a>
-<a href="https://salma71.github.io/resume#projects">projects</a>
+<a href="https://salma71.github.io">About</a>
+<a href="https://salma71.github.io/resume/">Resume</a>
+<a href="https://salma71.github.io/resume/#projects">Projects</a>
 <a href="index.html">Blog</a>
 <a href="index.xml">
 <i class="fa fa-rss"></i>
@@ -1689,33 +1686,20 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption">Blog</h1>
-<a href="posts/2019-11-20-the-sharp-ratio/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Rmarkdown","LaTex"]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 20, 2019</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>The Sharp Ratio</h2>
-<p>A short description of the post.</p>
-</div>
-</a>
 </div>
 <div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#LaTex">LaTex</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#Rmarkdown">Rmarkdown</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
+<div class="sidebar-section subscribe">
+<h3>Subscribe</h3>
+
+<form method='post' action='https://blogtrottr.com'>
+  <p>Enjoy this blog? Get notified of new posts via email:</p>
+  <input type='text' name='btr_email' />
+  <input type='hidden' name='btr_url'
+         value='https://salma71.github.io/blog/index.xml'/>
+  <input type='hidden' name='schedule_type' value='0' />
+  <input type='submit' value='Subscribe' />
+</form>
+
 </div>
 </div>
 <div class="posts-more">

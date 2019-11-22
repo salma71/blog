@@ -8,7 +8,7 @@ collections:
       shortname: salma71-github-io
       hidden: false
     share: [twitter, linkedin]
-    #subscribe: _subscribe.html
+    subscribe: _subscribe.html
     feed_items_max: 50
     citations: false
 #creative_commons: CC BY
@@ -16,14 +16,13 @@ repository_url: https://github.com/salma71/blog/
 base_url: https://salma71.github.io
 favicon: images/headshot_0.jpg
 navbar:
-  logo: images/headshot_0.jpg
   right:
-    - text: "Home"
+    - text: "About"
       href: "https://salma71.github.io"
     - text: "Resume"
-      href: "https://salma71.github.io/resume"
-    - text: "projects"
-      href: "https://salma71.github.io/resume#projects"
+      href: "https://salma71.github.io/resume/"
+    - text: "Projects"
+      href: "https://salma71.github.io/resume/#projects"
     - text: "Blog"
       href: index.html
     - icon: fa fa-rss
